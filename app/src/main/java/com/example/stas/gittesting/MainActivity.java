@@ -10,7 +10,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Toast.makeText(this, "First commit", Toast.LENGTH_SHORT).show();
+        Toast.makeText(this, "First commit toast", Toast.LENGTH_SHORT).show();
 
     }
 }
